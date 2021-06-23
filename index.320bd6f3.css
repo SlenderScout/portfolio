@@ -341,10 +341,11 @@ preview__item-img
   font-family: dystopian, sans-serif;
   font-size: 12vw;
   font-size: clamp(1.5rem, 12vw, 20vh);
-  margin: 0;
+  margin: 50px;
   grid-column-start: 1;
   align-self: center;
   padding-left: 1rem;
+  margin-top: -190px;
   position: relative;
   overflow: hidden;
   pointer-events: none
@@ -478,7 +479,7 @@ preview__item-img
 
   .preview__item {
     height: 100%;
-    width: 80vw;
+    width: 120vw;
     grid-template-columns: 47% 53%;
     grid-template-rows: minmax(max(5rem, 18vh), 1fr) auto auto 1fr;
     grid-template-areas: "... ...""preview-back ...""preview-title preview-title""preview-img preview-content"
